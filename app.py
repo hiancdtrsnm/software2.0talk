@@ -63,28 +63,3 @@ st.image(open("images/qr.png", "rb").read(), width=500)
 
 st.markdown("### 👋 Hian Cañizares - @hiancdtrsnm")
 
-st.markdown("# Software 2.0")
-
-
-t = Tweet("https://twitter.com/karpathy/status/893576281375219712").component()
-
-st.markdown("""
-## Ventajas de Software 2.0
-
-1. Manejo de tareas complejas
-2. Personalización y adaptabilidad
-3. Escalabilidad
-"""
-)
-
-st.markdown("""
-# Referencias
-[Karphaty Talk](https://www.youtube.com/watch?v=y57wwucbXR8&ab_channel=Databricks)
-
-[Karphaty post](https://karpathy.medium.com/software-2-0-a64152b37c35)
-
-[Karpathy twitter post](https://twitter.com/karpathy/status/893576281375219712?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E893576281375219712%7Ctwgr%5E87872290581e626c006868e0984164c93c746d61%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fkarpathy.ai%2Ftweets.html)
-
-
-[Deeplearning.ai](https://learn.deeplearning.ai/?_gl=1*1lzr5jb*_ga*MTU4MDcxMTk3MC4xNjgyNjIwMTYz*_ga_PZF1GBS1R1*MTY4NTA2NzExNC40LjEuMTY4NTA2NzEyNy40Ny4wLjA.)
-""")
